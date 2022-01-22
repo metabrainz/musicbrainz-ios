@@ -8,11 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var showingAlert = false
+    @AppStorage("loginStatus") var isLoggedIn = false
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        if isLoggedIn {
+            NavigationView {
+                
+            }
+        }
+        else{
+            LoginScreen()
+        }
+       
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

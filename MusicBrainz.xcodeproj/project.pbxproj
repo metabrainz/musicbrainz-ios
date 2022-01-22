@@ -14,6 +14,11 @@
 		0184AA922796F79100DF4000 /* MusicBrainzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184AA912796F79100DF4000 /* MusicBrainzTests.swift */; };
 		0184AA9C2796F79100DF4000 /* MusicBrainzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184AA9B2796F79100DF4000 /* MusicBrainzUITests.swift */; };
 		0184AA9E2796F79100DF4000 /* MusicBrainzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184AA9D2796F79100DF4000 /* MusicBrainzUITestsLaunchTests.swift */; };
+		01F1AD8F279B5FB600B20699 /* View in Resources */ = {isa = PBXBuildFile; fileRef = 01F1AD8C279B5FB600B20699 /* View */; };
+		01F1AD90279B5FB600B20699 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 01F1AD8D279B5FB600B20699 /* Model */; };
+		01F1AD91279B5FB600B20699 /* Lottie in Resources */ = {isa = PBXBuildFile; fileRef = 01F1AD8E279B5FB600B20699 /* Lottie */; };
+		01F1AD96279B5FCF00B20699 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1AD93279B5FCE00B20699 /* LoginScreen.swift */; };
+		01F1AD9A279B843700B20699 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 01F1AD99279B843700B20699 /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,10 @@
 		0184AA972796F79100DF4000 /* MusicBrainzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicBrainzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0184AA9B2796F79100DF4000 /* MusicBrainzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBrainzUITests.swift; sourceTree = "<group>"; };
 		0184AA9D2796F79100DF4000 /* MusicBrainzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBrainzUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		01F1AD8C279B5FB600B20699 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
+		01F1AD8D279B5FB600B20699 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
+		01F1AD8E279B5FB600B20699 /* Lottie */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Lottie; sourceTree = "<group>"; };
+		01F1AD93279B5FCE00B20699 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F1AD9A279B843700B20699 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +104,11 @@
 		0184AA7F2796F79000DF4000 /* MusicBrainz */ = {
 			isa = PBXGroup;
 			children = (
+				01F1AD8E279B5FB600B20699 /* Lottie */,
+				01F1AD8D279B5FB600B20699 /* Model */,
+				01F1AD8C279B5FB600B20699 /* View */,
 				0184AA802796F79000DF4000 /* MusicBrainzApp.swift */,
+				01F1AD93279B5FCE00B20699 /* LoginScreen.swift */,
 				0184AA822796F79000DF4000 /* ContentView.swift */,
 				0184AA842796F79100DF4000 /* Assets.xcassets */,
 				0184AA862796F79100DF4000 /* Preview Content */,
@@ -143,6 +157,9 @@
 			dependencies = (
 			);
 			name = MusicBrainz;
+			packageProductDependencies = (
+				01F1AD99279B843700B20699 /* Lottie */,
+			);
 			productName = MusicBrainz;
 			productReference = 0184AA7D2796F79000DF4000 /* MusicBrainz.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +232,9 @@
 				Base,
 			);
 			mainGroup = 0184AA742796F79000DF4000;
+			packageReferences = (
+				01F1AD98279B843700B20699 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 0184AA7E2796F79000DF4000 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +251,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F1AD91279B5FB600B20699 /* Lottie in Resources */,
 				0184AA882796F79100DF4000 /* Preview Assets.xcassets in Resources */,
 				0184AA852796F79100DF4000 /* Assets.xcassets in Resources */,
+				01F1AD90279B5FB600B20699 /* Model in Resources */,
+				01F1AD8F279B5FB600B20699 /* View in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F1AD96279B5FCF00B20699 /* LoginScreen.swift in Sources */,
 				0184AA832796F79000DF4000 /* ContentView.swift in Sources */,
 				0184AA812796F79000DF4000 /* MusicBrainzApp.swift in Sources */,
 			);
@@ -346,7 +370,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -401,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -585,6 +609,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		01F1AD98279B843700B20699 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 3.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		01F1AD99279B843700B20699 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 01F1AD98279B843700B20699 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0184AA752796F79000DF4000 /* Project object */;
 }
