@@ -1,8 +1,8 @@
 //
 //  LottieView.swift
-//  DTU RM
+//  MusicBrainz
 //
-//  Created by Akshat Tiwari on 22/01/22.
+//  Created by Akshat Tiwari on 29/05/22.
 //
 
 import SwiftUI
@@ -42,6 +42,3 @@ struct LottieView: UIViewRepresentable {
     
         func updateUIView( _ uiView: UIView, context: UIViewRepresentableContext<LottieView>){}
 }
-
-
-

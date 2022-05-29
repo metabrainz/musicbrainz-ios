@@ -1,8 +1,8 @@
 //
 //  CardView.swift
-//  DTU RM
+//  MusicBrainz
 //
-//  Created by Akshat Tiwari on 22/01/22.
+//  Created by Akshat Tiwari on 29/05/22.
 //
 
 import SwiftUI
@@ -36,7 +36,6 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(card: testData[1])
+        CardView(card: onboardingData[1])
     }
 }
-

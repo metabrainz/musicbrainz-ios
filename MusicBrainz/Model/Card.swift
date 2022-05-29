@@ -1,8 +1,8 @@
 //
 //  Card.swift
-//  DTU RM
+//  MusicBrainz
 //
-//  Created by Akshat Tiwari on 22/01/22.
+//  Created by Akshat Tiwari on 29/05/22.
 //
 
 import SwiftUI
@@ -15,10 +15,14 @@ struct Card: Identifiable {
     var description : String
 }
 
-var testData:[Card] = [
- Card(file: "tagger", title: "Ready and Prepared?", description: "We  wish you all the best for the journey ahead!"),
+var onboardingData:[Card] = [
+ Card(file: "tagger", title: "Tag", description: "Fix your Audio Metadata"),
 
- Card(file: "search", title: "Revise and Concentrate", description: "Our team is here to assist you, just give your best!"),
+ Card(file: "search", title: "Search", description: "Explore MusicBrainz Data"),
  
- Card(file: "scan", title: "The End is Near", description: "Be professional when you are shortlisted, you represent the whole college. ALL THE BEST!!")
+ Card(file: "scan", title: "Scan", description: "Barcodes Search"),
+ Card(file: "collections", title: "Collections", description: "Explore your MusicBrainz Collection"),
+ Card(file: "laptop_and_stuff", title: "Cross Platform", description: "Transfer music data across devices"),
+ Card(file: "teen", title: "Listens", description: "Track your music listening habits"),
+ Card(file: "review", title: "Critiques", description: "Read and write about an album or event")
 ]

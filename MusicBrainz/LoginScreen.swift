@@ -1,6 +1,6 @@
 //
 //  LoginScreen.swift
-//  DTU RM
+//  MusicBrainz
 //
 //  Created by Akshat Tiwari on 21/01/22.
 //
@@ -27,8 +27,8 @@ struct LoginScreen: View {
                 ZStack{
                 TabView(selection: $selectedPage)
                 {
-                    ForEach(0..<testData.count){
-                        index in CardView(card : testData[index]).tag(index)
+                    ForEach(0..<onboardingData.count){
+                        index in CardView(card : onboardingData[index]).tag(index)
                     }
                 }
                 .tabViewStyle(PageTabViewStyle(indexDisplayMode: .automatic))

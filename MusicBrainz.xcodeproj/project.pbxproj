@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0125FBD428435331000760E5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0125FBD328435331000760E5 /* Card.swift */; };
+		0125FBD72843539E000760E5 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0125FBD62843539E000760E5 /* LottieView.swift */; };
+		0125FBD9284353AF000760E5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0125FBD8284353AF000760E5 /* CardView.swift */; };
+		0125FBE528435E11000760E5 /* teen.json in Resources */ = {isa = PBXBuildFile; fileRef = 0125FBE028435E11000760E5 /* teen.json */; };
+		0125FBE628435E11000760E5 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = 0125FBE128435E11000760E5 /* search.json */; };
+		0125FBE728435E11000760E5 /* scan.json in Resources */ = {isa = PBXBuildFile; fileRef = 0125FBE228435E11000760E5 /* scan.json */; };
+		0125FBE828435E11000760E5 /* tagger.json in Resources */ = {isa = PBXBuildFile; fileRef = 0125FBE328435E11000760E5 /* tagger.json */; };
+		0125FBE928435E11000760E5 /* review.json in Resources */ = {isa = PBXBuildFile; fileRef = 0125FBE428435E11000760E5 /* review.json */; };
+		0125FBEF28435E1E000760E5 /* headphone_meb_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 0125FBEA28435E1D000760E5 /* headphone_meb_loading.json */; };
+		0125FBF028435E1E000760E5 /* login.json in Resources */ = {isa = PBXBuildFile; fileRef = 0125FBEB28435E1D000760E5 /* login.json */; };
+		0125FBF128435E1E000760E5 /* dots.json in Resources */ = {isa = PBXBuildFile; fileRef = 0125FBEC28435E1D000760E5 /* dots.json */; };
+		0125FBF228435E1E000760E5 /* collections.json in Resources */ = {isa = PBXBuildFile; fileRef = 0125FBED28435E1D000760E5 /* collections.json */; };
+		0125FBF328435E1E000760E5 /* laptop_and_stuff.json in Resources */ = {isa = PBXBuildFile; fileRef = 0125FBEE28435E1E000760E5 /* laptop_and_stuff.json */; };
 		0184AA812796F79000DF4000 /* MusicBrainzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184AA802796F79000DF4000 /* MusicBrainzApp.swift */; };
 		0184AA832796F79000DF4000 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184AA822796F79000DF4000 /* ContentView.swift */; };
 		0184AA852796F79100DF4000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0184AA842796F79100DF4000 /* Assets.xcassets */; };
@@ -14,9 +27,6 @@
 		0184AA922796F79100DF4000 /* MusicBrainzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184AA912796F79100DF4000 /* MusicBrainzTests.swift */; };
 		0184AA9C2796F79100DF4000 /* MusicBrainzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184AA9B2796F79100DF4000 /* MusicBrainzUITests.swift */; };
 		0184AA9E2796F79100DF4000 /* MusicBrainzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184AA9D2796F79100DF4000 /* MusicBrainzUITestsLaunchTests.swift */; };
-		01F1AD8F279B5FB600B20699 /* View in Resources */ = {isa = PBXBuildFile; fileRef = 01F1AD8C279B5FB600B20699 /* View */; };
-		01F1AD90279B5FB600B20699 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = 01F1AD8D279B5FB600B20699 /* Model */; };
-		01F1AD91279B5FB600B20699 /* Lottie in Resources */ = {isa = PBXBuildFile; fileRef = 01F1AD8E279B5FB600B20699 /* Lottie */; };
 		01F1AD96279B5FCF00B20699 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1AD93279B5FCE00B20699 /* LoginScreen.swift */; };
 		01F1AD9A279B843700B20699 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 01F1AD99279B843700B20699 /* Lottie */; };
 /* End PBXBuildFile section */
@@ -39,6 +49,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0125FBD328435331000760E5 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		0125FBD62843539E000760E5 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		0125FBD8284353AF000760E5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		0125FBE028435E11000760E5 /* teen.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teen.json; sourceTree = "<group>"; };
+		0125FBE128435E11000760E5 /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
+		0125FBE228435E11000760E5 /* scan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = scan.json; sourceTree = "<group>"; };
+		0125FBE328435E11000760E5 /* tagger.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tagger.json; sourceTree = "<group>"; };
+		0125FBE428435E11000760E5 /* review.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = review.json; sourceTree = "<group>"; };
+		0125FBEA28435E1D000760E5 /* headphone_meb_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = headphone_meb_loading.json; sourceTree = "<group>"; };
+		0125FBEB28435E1D000760E5 /* login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = login.json; sourceTree = "<group>"; };
+		0125FBEC28435E1D000760E5 /* dots.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dots.json; sourceTree = "<group>"; };
+		0125FBED28435E1D000760E5 /* collections.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = collections.json; sourceTree = "<group>"; };
+		0125FBEE28435E1E000760E5 /* laptop_and_stuff.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = laptop_and_stuff.json; sourceTree = "<group>"; };
 		0184AA7D2796F79000DF4000 /* MusicBrainz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicBrainz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0184AA802796F79000DF4000 /* MusicBrainzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBrainzApp.swift; sourceTree = "<group>"; };
 		0184AA822796F79000DF4000 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,9 +72,6 @@
 		0184AA972796F79100DF4000 /* MusicBrainzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicBrainzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0184AA9B2796F79100DF4000 /* MusicBrainzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBrainzUITests.swift; sourceTree = "<group>"; };
 		0184AA9D2796F79100DF4000 /* MusicBrainzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBrainzUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		01F1AD8C279B5FB600B20699 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
-		01F1AD8D279B5FB600B20699 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
-		01F1AD8E279B5FB600B20699 /* Lottie */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Lottie; sourceTree = "<group>"; };
 		01F1AD93279B5FCE00B20699 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +101,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0125FBD22843531C000760E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0125FBD328435331000760E5 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0125FBD528435388000760E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0125FBD62843539E000760E5 /* LottieView.swift */,
+				0125FBD8284353AF000760E5 /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0125FBDF28435DCD000760E5 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				0125FBED28435E1D000760E5 /* collections.json */,
+				0125FBEC28435E1D000760E5 /* dots.json */,
+				0125FBEA28435E1D000760E5 /* headphone_meb_loading.json */,
+				0125FBEE28435E1E000760E5 /* laptop_and_stuff.json */,
+				0125FBEB28435E1D000760E5 /* login.json */,
+				0125FBE428435E11000760E5 /* review.json */,
+				0125FBE228435E11000760E5 /* scan.json */,
+				0125FBE128435E11000760E5 /* search.json */,
+				0125FBE328435E11000760E5 /* tagger.json */,
+				0125FBE028435E11000760E5 /* teen.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
 		0184AA742796F79000DF4000 = {
 			isa = PBXGroup;
 			children = (
@@ -104,9 +158,9 @@
 		0184AA7F2796F79000DF4000 /* MusicBrainz */ = {
 			isa = PBXGroup;
 			children = (
-				01F1AD8E279B5FB600B20699 /* Lottie */,
-				01F1AD8D279B5FB600B20699 /* Model */,
-				01F1AD8C279B5FB600B20699 /* View */,
+				0125FBDF28435DCD000760E5 /* Lottie */,
+				0125FBD528435388000760E5 /* View */,
+				0125FBD22843531C000760E5 /* Model */,
 				0184AA802796F79000DF4000 /* MusicBrainzApp.swift */,
 				01F1AD93279B5FCE00B20699 /* LoginScreen.swift */,
 				0184AA822796F79000DF4000 /* ContentView.swift */,
@@ -251,11 +305,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F1AD91279B5FB600B20699 /* Lottie in Resources */,
+				0125FBE728435E11000760E5 /* scan.json in Resources */,
 				0184AA882796F79100DF4000 /* Preview Assets.xcassets in Resources */,
+				0125FBE628435E11000760E5 /* search.json in Resources */,
+				0125FBF128435E1E000760E5 /* dots.json in Resources */,
+				0125FBE928435E11000760E5 /* review.json in Resources */,
 				0184AA852796F79100DF4000 /* Assets.xcassets in Resources */,
-				01F1AD90279B5FB600B20699 /* Model in Resources */,
-				01F1AD8F279B5FB600B20699 /* View in Resources */,
+				0125FBF328435E1E000760E5 /* laptop_and_stuff.json in Resources */,
+				0125FBF028435E1E000760E5 /* login.json in Resources */,
+				0125FBE528435E11000760E5 /* teen.json in Resources */,
+				0125FBF228435E1E000760E5 /* collections.json in Resources */,
+				0125FBEF28435E1E000760E5 /* headphone_meb_loading.json in Resources */,
+				0125FBE828435E11000760E5 /* tagger.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +343,10 @@
 			files = (
 				01F1AD96279B5FCF00B20699 /* LoginScreen.swift in Sources */,
 				0184AA832796F79000DF4000 /* ContentView.swift in Sources */,
+				0125FBD72843539E000760E5 /* LottieView.swift in Sources */,
 				0184AA812796F79000DF4000 /* MusicBrainzApp.swift in Sources */,
+				0125FBD9284353AF000760E5 /* CardView.swift in Sources */,
+				0125FBD428435331000760E5 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +507,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MusicBrainz/Preview Content\"";
-				DEVELOPMENT_TEAM = 9D6MSY69FQ;
+				DEVELOPMENT_TEAM = HT6VNLRBYD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -472,7 +536,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MusicBrainz/Preview Content\"";
-				DEVELOPMENT_TEAM = 9D6MSY69FQ;
+				DEVELOPMENT_TEAM = HT6VNLRBYD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
