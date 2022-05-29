@@ -17,9 +17,7 @@ struct Card: Identifiable {
 
 var onboardingData:[Card] = [
  Card(file: "tagger", title: "Tag", description: "Fix your Audio Metadata"),
-
  Card(file: "search", title: "Search", description: "Explore MusicBrainz Data"),
- 
  Card(file: "scan", title: "Scan", description: "Barcodes Search"),
  Card(file: "collections", title: "Collections", description: "Explore your MusicBrainz Collection"),
  Card(file: "laptop_and_stuff", title: "Cross Platform", description: "Transfer music data across devices"),

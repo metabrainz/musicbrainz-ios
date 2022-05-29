@@ -10,10 +10,10 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var showingAlert = false
-    @AppStorage("loginStatus") var isLoggedIn = false
+    @AppStorage("onboarded") var hasOnboarded = false
 
     var body: some View {
-        if isLoggedIn {
+        if hasOnboarded {
             NavigationView {
                 
             }
