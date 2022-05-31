@@ -2,8 +2,7 @@
 
 name: Xcode Build
 
-on:
-  [push]
+on: [push]
   
 jobs:
   build:
