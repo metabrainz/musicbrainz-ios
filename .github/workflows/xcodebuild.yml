@@ -3,10 +3,8 @@
 name: Xcode Build
 
 on:
-  pull_request:
-    branches:
-      - develop
-      - master
+  [push]
+  
 jobs:
   build:
     strategy:
