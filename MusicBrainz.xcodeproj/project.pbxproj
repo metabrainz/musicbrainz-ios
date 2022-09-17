@@ -23,7 +23,6 @@
 		0184AA812796F79000DF4000 /* MusicBrainzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184AA802796F79000DF4000 /* MusicBrainzApp.swift */; };
 		0184AA832796F79000DF4000 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184AA822796F79000DF4000 /* ContentView.swift */; };
 		0184AA852796F79100DF4000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0184AA842796F79100DF4000 /* Assets.xcassets */; };
-		0184AA882796F79100DF4000 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0184AA872796F79100DF4000 /* Preview Assets.xcassets */; };
 		0184AA922796F79100DF4000 /* MusicBrainzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184AA912796F79100DF4000 /* MusicBrainzTests.swift */; };
 		0184AA9C2796F79100DF4000 /* MusicBrainzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184AA9B2796F79100DF4000 /* MusicBrainzUITests.swift */; };
 		0184AA9E2796F79100DF4000 /* MusicBrainzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184AA9D2796F79100DF4000 /* MusicBrainzUITestsLaunchTests.swift */; };
@@ -66,7 +65,6 @@
 		0184AA802796F79000DF4000 /* MusicBrainzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBrainzApp.swift; sourceTree = "<group>"; };
 		0184AA822796F79000DF4000 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0184AA842796F79100DF4000 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0184AA872796F79100DF4000 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0184AA8D2796F79100DF4000 /* MusicBrainzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicBrainzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0184AA912796F79100DF4000 /* MusicBrainzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBrainzTests.swift; sourceTree = "<group>"; };
 		0184AA972796F79100DF4000 /* MusicBrainzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicBrainzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -165,17 +163,8 @@
 				0125FBDF28435DCD000760E5 /* Lottie */,
 				0125FBD528435388000760E5 /* View */,
 				0125FBD22843531C000760E5 /* Model */,
-				0184AA862796F79100DF4000 /* Preview Content */,
 			);
 			path = MusicBrainz;
-			sourceTree = "<group>";
-		};
-		0184AA862796F79100DF4000 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				0184AA872796F79100DF4000 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		0184AA902796F79100DF4000 /* MusicBrainzTests */ = {
@@ -322,7 +311,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0125FBE728435E11000760E5 /* scan.json in Resources */,
-				0184AA882796F79100DF4000 /* Preview Assets.xcassets in Resources */,
 				0125FBE628435E11000760E5 /* search.json in Resources */,
 				0125FBF128435E1E000760E5 /* dots.json in Resources */,
 				0125FBE928435E11000760E5 /* review.json in Resources */,
@@ -522,7 +510,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MusicBrainz/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = HT6VNLRBYD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -554,7 +542,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MusicBrainz/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = HT6VNLRBYD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
