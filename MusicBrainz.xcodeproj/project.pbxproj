@@ -112,6 +112,8 @@
 		0125FBD528435388000760E5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				01F1AD93279B5FCE00B20699 /* LoginScreen.swift */,
+				0184AA822796F79000DF4000 /* ContentView.swift */,
 				0125FBD62843539E000760E5 /* LottieView.swift */,
 				0125FBD8284353AF000760E5 /* CardView.swift */,
 			);
@@ -158,13 +160,11 @@
 		0184AA7F2796F79000DF4000 /* MusicBrainz */ = {
 			isa = PBXGroup;
 			children = (
+				6F7F0E2A28D5E94F003B4BAC /* Application */,
+				6F7F0E2928D5E933003B4BAC /* Resources */,
 				0125FBDF28435DCD000760E5 /* Lottie */,
 				0125FBD528435388000760E5 /* View */,
 				0125FBD22843531C000760E5 /* Model */,
-				0184AA802796F79000DF4000 /* MusicBrainzApp.swift */,
-				01F1AD93279B5FCE00B20699 /* LoginScreen.swift */,
-				0184AA822796F79000DF4000 /* ContentView.swift */,
-				0184AA842796F79100DF4000 /* Assets.xcassets */,
 				0184AA862796F79100DF4000 /* Preview Content */,
 			);
 			path = MusicBrainz;
@@ -193,6 +193,22 @@
 				0184AA9D2796F79100DF4000 /* MusicBrainzUITestsLaunchTests.swift */,
 			);
 			path = MusicBrainzUITests;
+			sourceTree = "<group>";
+		};
+		6F7F0E2928D5E933003B4BAC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0184AA842796F79100DF4000 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6F7F0E2A28D5E94F003B4BAC /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0184AA802796F79000DF4000 /* MusicBrainzApp.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -510,11 +526,14 @@
 				DEVELOPMENT_TEAM = HT6VNLRBYD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MusicBrainz;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -539,11 +558,14 @@
 				DEVELOPMENT_TEAM = HT6VNLRBYD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MusicBrainz;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.music";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -564,7 +586,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9D6MSY69FQ;
+				DEVELOPMENT_TEAM = HT6VNLRBYD;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -584,7 +606,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9D6MSY69FQ;
+				DEVELOPMENT_TEAM = HT6VNLRBYD;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
@@ -603,7 +625,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9D6MSY69FQ;
+				DEVELOPMENT_TEAM = HT6VNLRBYD;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.metabrainz.ios.MusicBrainzUITests;
@@ -621,7 +643,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9D6MSY69FQ;
+				DEVELOPMENT_TEAM = HT6VNLRBYD;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = org.metabrainz.ios.MusicBrainzUITests;
