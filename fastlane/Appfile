@@ -1,0 +1,12 @@
+app_identifier("org.metabrainz.ios") # The bundle identifier of your app
+apple_id("") # Your Apple Developer Portal username
+
+itc_team_id("") # App Store Connect Team ID
+team_id("") # Developer Portal Team ID
+
+# Override timeout to increase to custom value
+ENV["FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT"] = "180"
+ENV["FASTLANE_XCODE_LIST_TIMEOUT"] = "180"
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
