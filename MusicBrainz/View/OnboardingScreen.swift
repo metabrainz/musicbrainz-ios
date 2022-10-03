@@ -6,9 +6,8 @@
 //
 
 import SwiftUI
-import AuthenticationServices
 
-struct LoginScreen: View {
+struct OnboardingScreen: View {
 
     init() {
        UIPageControl.appearance().currentPageIndicatorTintColor = .red
@@ -38,8 +37,8 @@ struct LoginScreen: View {
     }
 }
 
-struct LoginScreen_Previews: PreviewProvider {
+struct OnboardingScreen_Previews: PreviewProvider {
     static var previews: some View {
-        LoginScreen()
+        OnboardingScreen()
     }
 }

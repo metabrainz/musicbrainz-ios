@@ -26,7 +26,7 @@
 		0184AA922796F79100DF4000 /* MusicBrainzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184AA912796F79100DF4000 /* MusicBrainzTests.swift */; };
 		0184AA9C2796F79100DF4000 /* MusicBrainzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184AA9B2796F79100DF4000 /* MusicBrainzUITests.swift */; };
 		0184AA9E2796F79100DF4000 /* MusicBrainzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0184AA9D2796F79100DF4000 /* MusicBrainzUITestsLaunchTests.swift */; };
-		01F1AD96279B5FCF00B20699 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1AD93279B5FCE00B20699 /* LoginScreen.swift */; };
+		01F1AD96279B5FCF00B20699 /* OnboardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1AD93279B5FCE00B20699 /* OnboardingScreen.swift */; };
 		01F1AD9A279B843700B20699 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 01F1AD99279B843700B20699 /* Lottie */; };
 /* End PBXBuildFile section */
 
@@ -70,7 +70,7 @@
 		0184AA972796F79100DF4000 /* MusicBrainzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicBrainzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0184AA9B2796F79100DF4000 /* MusicBrainzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBrainzUITests.swift; sourceTree = "<group>"; };
 		0184AA9D2796F79100DF4000 /* MusicBrainzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicBrainzUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		01F1AD93279B5FCE00B20699 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		01F1AD93279B5FCE00B20699 /* OnboardingScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 		0125FBD528435388000760E5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				01F1AD93279B5FCE00B20699 /* LoginScreen.swift */,
+				01F1AD93279B5FCE00B20699 /* OnboardingScreen.swift */,
 				0184AA822796F79000DF4000 /* ContentView.swift */,
 				0125FBD62843539E000760E5 /* LottieView.swift */,
 				0125FBD8284353AF000760E5 /* CardView.swift */,
@@ -268,6 +268,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = MetaBrainz;
 				TargetAttributes = {
 					0184AA7C2796F79000DF4000 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -345,7 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01F1AD96279B5FCF00B20699 /* LoginScreen.swift in Sources */,
+				01F1AD96279B5FCF00B20699 /* OnboardingScreen.swift in Sources */,
 				0184AA832796F79000DF4000 /* ContentView.swift in Sources */,
 				0125FBD72843539E000760E5 /* LottieView.swift in Sources */,
 				0184AA812796F79000DF4000 /* MusicBrainzApp.swift in Sources */,
